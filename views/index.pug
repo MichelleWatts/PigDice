@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    .wrapper
+        div.PlayerOne.active#PlayerOneWrapper
+            .player-name#PlayerOneName(data-name = 'Player 1') Player 1
+            .player-score#PlayerOneScore 0
+            .player-current-wrapper
+                .player-current-label Current
+                .player-current-score#PlayerOneCurrent 0
+        div.PlayerTwo#PlayerTwoWrapper
+            .player-name#PlayerTwoName(data-name = 'Player 2') Player 2
+            .player-score#PlayerTwoScore 0
+            .player-current-wrapper
+                .player-current-label Current
+                .player-current-score#PlayerTwoCurrent 0
+        button.btn-new-game New Game
+        button.btn-roll-dice Roll dice
+        button.btn-hold-game Hold
+        img.dice
+        img.dice.dice-2
+        .game-winning-wrapper
+            span.game-winning-wrapper-desc Score to collect: 100
