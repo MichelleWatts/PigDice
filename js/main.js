@@ -11,7 +11,7 @@ const DiceOne = new Dice();
 const DiceTwo = new Dice();
 
 //Instantiate Game object.
-let gamePlay = new Game(2, 30);
+let gamePlay = new Game(2, 100);
 
 /**
  * Create Game object with 2 players and a winning score of 20.
